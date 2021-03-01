@@ -9,7 +9,6 @@ class TimeDelta:
         self.month = months
         self.year = years
 
-
     @staticmethod
     def __correct_value(value):
         if isinstance(value, int):
