@@ -54,7 +54,7 @@ class TimeDelta:
 class Date:
     """Класс для работы с датами"""
 
-    MAX_DAY_ON_MONTH = (31, 29, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31)
+    MAX_DAY_ON_MONTH = (31, 15, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31)#29
 
     @overload
     def __init__(self, day: int, month: int, year: int):
